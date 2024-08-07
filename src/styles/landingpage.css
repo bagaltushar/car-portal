@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.backgroundColorCommon {
+  background-color: black;
+}
+.backgroundbtnCommon {
+  background-color: rgb(212 74 74);
+  justify-content: start !important;
+  border-radius: 0%;
+  width: 131px;
+}
+
+.backgroundImage {
+  background-image: url("../assets/defwr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 131vh;
+}
+.MainText {
+  font-size: 4rem;
+}
+.BlackBackground {
+  left: 0px;
+  right: 60%;
+  height: 409px;
+  z-index: -1;
+}
+.BestCarsHr {
+  cursor: none !important;
+  width: 15%;
+  height: 10px;
+  background-color: black;
+}
+.ReadMoreBtn {
+  border-radius: 0px !important;
+}
+
+/* service section  */
+
+.serviceContainer {
+  z-index: 2;
+}
+
+.service {
+  position: absolute;
+  top: 9%;
+  left: 21%;
+  height: 21%;
+  right: 59%;
+  z-index: -1;
+}
+.secondService {
+  position: relative;
+  z-index: -2;
+}
+
+/* OurTexhnologies  */
+
+.OurTechnologies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+/* Trim  */
+
+.trimbg {
+  background-image: url("../assets/f87626a7d314086bcea028f7bd4c3626.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.columnsFront {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.thirdCard,
+.firstCard {
+  grid-column-start: 2;
+}
+.card {
+  border-radius: 0px !important;
+}
+.firstCard {
+  background-image: url("../assets/f8e2b5ef93ef2708b1e28dbba12f72d3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent !important;
+}
+.lastCard {
+  background-image: url("../assets/3f93a8d64e7733bebfcf257992b470dd.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent !important;
+}
+.thirdCardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  gap: 1rem;
+}
+
+.contacttext {
+  color: rgb(50, 43, 43);
+}
+
+.footer {
+  background-color: #000;
+  height: 15vh;
+}
